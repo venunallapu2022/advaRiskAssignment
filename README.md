@@ -8,10 +8,10 @@ The Objective is to Perform a web scraping on the [companies](https://www.zaubac
   mongodb(specifically mongosh,mongodb server)
 `
 
-if mongodb is not installed in your pc then create a mongo db cloud account and access [atlas](https://studio3t.com/knowledge-base/articles/connect-to-mongodb-atlas/).
+If mongodb is not installed in your pc then create a mongo db cloud account and access [atlas](https://studio3t.com/knowledge-base/articles/connect-to-mongodb-atlas/).
 ## Code Deployment
 
-Code Deployment involves few steps for Data Scraping, Data Ingestion and Accessibility.
+Code Deployment involves few steps for Data scraping, Data ingestion and accessibility.
 
 ## step1:
 
