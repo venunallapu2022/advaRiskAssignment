@@ -1,9 +1,9 @@
 
 # Companies Incorporated In India
 
-The Objective is to Perform a web scraping on the [companies](https://www.zaubacorp.com/company-list) website and to perform data cleaning, data ingestion and data retrieval.In this project I have used [scrapy](https://docs.scrapy.org/en/latest/) framework for data scraping and data ingestion and [fastAPI](https://fastapi.tiangolo.com/lo/) for accessing data.
+The Objective is to perform web scraping on the [companies](https://www.zaubacorp.com/company-list) website and to perform data cleaning, data ingestion and data retrieval. In this project I have used [scrapy](https://docs.scrapy.org/en/latest/) framework for data scraping and data ingestion and [fastAPI](https://fastapi.tiangolo.com/lo/) for accessing data.
 
-`prerequesite tools: 
+`prerequisite tools: 
   python3, 
   mongodb(specifically mongosh,mongodb server)
 `
@@ -26,7 +26,7 @@ following cmds that will activate and install requirded packages.
 ##  step2:
 
 Run the scrapy cmd to scrape the data from [website](https://www.zaubacorp.com/company-list).
-make sure current dir in this [path](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk) before running scrapy cmd.here the spider name is `companies`.
+make sure current dir in this [path](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk) before running scrapy cmd. Here the spider name is `companies`.
 
 ```bash
   scrapy crawl companies
