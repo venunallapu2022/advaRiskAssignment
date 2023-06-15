@@ -46,6 +46,12 @@ we give our query inside a [input.json](https://github.com/venunallapu2022/advaR
   python pipelines.py
 ```
 
+sample query we can write in [input.json](https://github.com/venunallapu2022/advaRiskAssignment/blob/main/advaRisk/advaRisk/input.json)
+
+```bash
+  {'company_address.city':'jaipur'}
+```
+
 ## Method 2 - FastAPI UI
 we can use fastAPI for accessing data from mongodb.[FastAPI](https://fastapi.tiangolo.com/lo/) is a modern web framework for building RESTful APIs in Python.we can connect mongodb server with fastAPI to access the data. To start fastAPI we have to run following cmd
 
