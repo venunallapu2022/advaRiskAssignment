@@ -11,7 +11,7 @@ The Objective is to perform web scraping on the [companies](https://www.zaubacor
 If mongodb is not installed in your pc then create a mongo db cloud account and access [atlas](https://studio3t.com/knowledge-base/articles/connect-to-mongodb-atlas/).
 ## Code Deployment
 
-Code Deployment involves few steps for Data scraping, Data ingestion and accessibility.
+Code Deployment involves few steps for data scraping, data ingestion and accessibility.
 
 ## step1:
 
@@ -25,8 +25,9 @@ following cmds that will activate and install requirded packages.
 
 ##  step2:
 
-Run the scrapy cmd to scrape the data from [website](https://www.zaubacorp.com/company-list).
-make sure current dir in this [path](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk) before running scrapy cmd. Here the spider name is `companies`.
+Run the scrapy cmd to scrape the data from [website](https://www.zaubacorp.com/company-list). Here the spider name is `companies`.
+
+`Note: ` make sure current dir in this [path](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk) before running scrapy cmd.
 
 ```bash
   scrapy crawl companies
@@ -37,7 +38,7 @@ The data will be ingested in the mongodb database.here i have given local connec
 
 Now the last and final part that is accessing data.There are two methods provided to access the data from MongoDB.one is running `python scripts` and other is using `fastAPI`
 
-make sure current dir in this [dbpath](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk/advaRisk) before running database scripts.
+`Note: ` make sure current dir in this [dbpath](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk/advaRisk) before running database scripts.
 
 ## Method 1 - Python Script and Input file
 we give our query inside a [input.json](https://github.com/venunallapu2022/advaRiskAssignment/blob/main/advaRisk/advaRisk/input.json) and then run python run cmd to run pipeline script
