@@ -35,7 +35,7 @@ The data will be ingested in the mongodb database.here i have given local connec
 
 ## step3:
 
-Now the last and final part that is accessing data.There are two ways provided to access the data from MongoDB.one is running `python scripts` and other is using `fastAPI`
+Now the last and final part that is accessing data.There are two methods provided to access the data from MongoDB.one is running `python scripts` and other is using `fastAPI`
 
 make sure current dir in this [dbpath](https://github.com/venunallapu2022/advaRiskAssignment/tree/main/advaRisk/advaRisk) before running database scripts.
 
